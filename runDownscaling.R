@@ -4,6 +4,7 @@
 # 2. Load species information
 # 3. Gets the factors required for downscaling
 # 4. Downscales the results to the patch
+
 runDownscaling <- function(sp.name, reps) {
   # load required packages (install them with install.packages() if not done already)
   require(rgeos)
